@@ -1,0 +1,22 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shubham-ay11/Shubham_Joshi_webDevelopmentAssignment_frontend_july2021.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shubham-ay11/Shubham_Joshi_webDevelopmentAssignment_frontend_july2021/issues"
+  },
+  "homepage": "https://github.com/shubham-ay11/Shubham_Joshi_webDevelopmentAssignment_frontend_july2021#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

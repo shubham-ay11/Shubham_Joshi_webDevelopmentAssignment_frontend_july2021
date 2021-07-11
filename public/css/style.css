@@ -205,6 +205,32 @@ color:#0A1931;
     margin-bottom: 2%;
 
 }
+.loginLogo{
+    
+    margin-left: 40%;
+    margin-top: 1%;
+}
+.loginHeading{
+    margin-left: 43%;
+    margin-top: 1%;
+    font-size: 3.3em;
+      color: #0A1931;
+
+}
+
+.loginImg{
+    
+    margin-top: 1%;
+    margin-left: 30%;
+}
+
+
+.loginParagraph{
+    font-size: 1rem;
+    align-content: center;
+    font-family: 'Ubuntu', sans-serif;
+    
+}
 
 /*ID*/
 #image{
@@ -213,7 +239,10 @@ color:#0A1931;
     height: 800px;
     background-color: #F9F9F9;
 }
-
+.enterEmail{
+    
+    margin-top: 50%
+}
 
 #text{
      width: 50%;
@@ -248,3 +277,16 @@ color:#0A1931;
 #animated{
     margin-right: 25%;
 }
+
+#loginGoogle{
+    width: 30%;
+    margin-left: 36%;
+}
+#loginSearch{
+    width: 30%;
+    margin-left: 36%;
+
+    
+}
+
+

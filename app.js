@@ -13,6 +13,9 @@ app.get("/",(req,res)=>{
 app.get("/login",(req,res)=>{
     
     res.sendFile(__dirname+"/login.html");
+});
+app.get("/weekly",(req,res)=>{
+    res.sendFile(__dirname+"/weekly.html")
 })
 
 app.listen(3000,console.log("Server stated at Port 3000"));

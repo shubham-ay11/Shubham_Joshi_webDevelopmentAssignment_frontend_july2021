@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Lunchclub</title>
+    <!--CSS-->
+    <link href="css/style.css" rel="stylesheet">
+    <!--Bootstrao-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <!--Google Fonts-->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,500&display=swap" rel="stylesheet">
+    <!--font Awesome-->
+    <script src="https://use.fontawesome.com/4451d518d7.js"></script>
+    <script src="https://kit.fontawesome.com/54e76c0095.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/yourcode.js"></script>
+    <!--Jquery CDN-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!--Favicon-->
+    <link rel="shortcut icon" href="Images/android-icon-36x36.png" type="image/x-icon">
+</head>
+
+<body style="background-color: #EEEEEE">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="https://lunchclub.com/static/media/logo2.4c4b75fd.svg" alt="logo"></a>
+
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="&#xf002 Search Lunchclub" aria-label style="font-family: FontAwesome;">
+
+                    </form>
+                </ul>
+                <span class="navbar-text">
+                    <a><i class="fas fa-home"></i></a>
+                    <a> <i class="far fa-calendar-check" id="navbarIcon"></i></a>
+                    <a> <i class="fas fa-envelope" id="navbarIcon"></i></a>
+                    <a> <i class="fas fa-users" id="navbarIcon"></i></a>
+                    <a> <i class="fas fa-comment" id="navbarIcon"></i></a>
+
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-user-alt"></i>
+
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">Action1</a>
+                            <a class="dropdown-item" href="#">Action2</a>
+                            <a class="dropdown-item" href="#">Action3</a>
+                        </div>
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Action1</a>
+                        <a class="dropdown-item" href="#">Action2</a>
+                        <a class="dropdown-item" href="#">Action3</a>
+                    </div>
+                </span>
+            </div>
+        </div>
+    </nav>
+    <div style="  display: inline-block; margin-left: 12%">
+        <img src="https://lunchclub.com/static/media/clippy.f759b687.svg" id="textBoxImg">
+
+    </div>
+    <div style=" display:  inline-block;" id="weeklyTextBox">
+        <input class="form-control" type="text" placeholder="Welcome to Luchclub!" id="placeholder">
+    </div>
+    <div class="container-fluid" id="calendarBox">
+        <h1 class="boxHeading">Schedule your matches</h1>
+        <div class="container-fluid" id="innerBox">
+            <table class="table table-borderless" style="margin-left: 5%;margin-right: 5%">
+                <thead>
+                    <tr>
+
+                        <th scope="col">Wed</th>
+                        <th scope="col">Thu</th>
+                        <th scope="col">Fri</th>
+                        <th scope="col">Sat</th>
+                         <th scope="col">Sun</th>
+                        
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row"></th>
+                        <td>July 14</td>
+                        <td>July 15</td>
+                        <td>July 16</td>
+                        <td>July 17</td>
+
+                    </tr>
+                    <tr>
+                        <th scope="row"></th>
+                        <td>2.00pm</td>
+                        <td>5.00pm</td>
+                        <td>11.00am</td>
+                    </tr>
+                    <tr>
+                        <th scope="row"></th>
+                        <td colspan="2">6.00pm</td>
+                        <td>8.00pm</td>
+                          <td>7.00pm</td>
+                          
+                    </tr>
+                    <tr>
+                        <th scope="row"></th>
+                        <td colspan="2">3.00pm</td>
+                        <td>1.00pm</td>
+                          <td>7.00pm</td>
+                          
+                    </tr>
+                    <tr>
+                        <th scope="row"></th>
+                        <td colspan="2">9.00pm</td>
+                        <td>11.00pm</td>
+                          <td>10.00pm</td>
+                         
+                          
+                    </tr>
+                </tbody>
+            </table>
+            <hr style="margin-top: 30%">
+            <h1 class="bottomHeading">Choose times to meet!</h1>
+        </div>
+        <p class="boxParagraph">These are the best times for <strong>Los Angeles, US Time Zone</strong> (in PDT). Each meeting is 45 <br> minutes!</p>
+      <button type="button" class="btn btn-primary btn-md" style="font-family: 'Oswald', sans-serif;
+font-family: 'Ubuntu', sans-serif; " id="boxBtn">Pass for a week</button>
+    </div>
+    
+</body>
+
+</html>
